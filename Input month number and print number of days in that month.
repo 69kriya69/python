@@ -1,2 +1,19 @@
-Share coe: https://onlinegdb.com/wxl0MxLrCE
-Embedded code: <script src="//onlinegdb.com/embed/js/wxl0MxLrCE?theme=dark"></script>
+using Nested if concept:-
+a=int(input("Enter Month number: "))
+if a==1:
+    print("January has 31days")
+elif a==2:
+    print("February has 29 or 28 days")
+    year=int(input("Enter any year: "))
+    if year%4==0:
+       print("February has 29 days")
+    else:
+        print("February has 28 days")
+elif a==3:
+    print("March has 31 days")
+.
+.
+.
+.
+elif a==12:
+    print("December has 31 days")
